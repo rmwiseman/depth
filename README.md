@@ -15,6 +15,12 @@ Download the appropriate binary for your platform from the [Releases](https://gi
 go get github.com/KyleBanks/depth/cmd/depth
 ```
 
+If this does not work, you can use `go install` to install the latest version:
+
+```sh
+go install github.com/KyleBanks/depth/cmd/depth@latest
+```
+
 ## Usage
 
 `depth` can be used as a standalone command-line application, or as a package within your own project.
